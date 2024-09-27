@@ -114,12 +114,10 @@ button:hover {
 .author-name {
   color: var(--brown);
 }
-
-.hide {
-  opacity: 0;
-}
-.gone {
-  display: none;
+.start-reading {
+  text-align: center;
+  align-content: center;
+  font-size: 2rem;
 }
 .loading {
   position: absolute;
@@ -127,6 +125,13 @@ button:hover {
   margin: auto;
   animation: rotate 2s linear infinite;
 }
+.hide {
+  opacity: 0;
+}
+.gone {
+  display: none;
+}
+
 @keyframes rotate {
   to {
     transform: rotate(360deg);
