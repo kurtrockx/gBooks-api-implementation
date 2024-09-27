@@ -77,7 +77,6 @@ class App {
   hashChange() {
     window.addEventListener("hashchange", () => {
       this.#hashNewData = window.location.hash.slice(1);
-      console.log(this.#hashNewData);
       this.displayModal();
     });
   }
@@ -94,7 +93,6 @@ class App {
   displayModal = async () => {
     this.#modalData = await this.getModalData();
     this.#modalData = this.#modalData.volumeInfo;
-    console.log(this.#modalData);
     const markup = `
             <div class="modal">
             <div class="exit">✖</div>

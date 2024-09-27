@@ -148,7 +148,6 @@ button:hover {
   height: 500px;
   padding: 20px;
   background: var(--white);
-  overflow: auto;
 }
 .title-image {
   display: flex;
@@ -170,6 +169,7 @@ button:hover {
   font-size: var(--font-small);
   text-indent: 40px;
   text-align: justify;
+  overflow: auto;
 }
 .add-to-bookmark {
   display: block;
@@ -201,6 +201,9 @@ button:hover {
   }
   .modal {
     width: 300px;
-    height: 300px;
+    height: 350px;
+  }
+  .description-modal {
+    height: 150px;
   }
 }
