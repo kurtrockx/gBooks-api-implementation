@@ -72,7 +72,7 @@
 88C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\lmdb\dependencies\lmdb-data-v1133719984909938501 1
 117C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\@parcel\optimizer-svgo\node_modules\css-select\package.json133719984997088861 0
 92C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\htmlnano\lib\modules\minifyCss.cjs133719985003298257 0
-55C:\codingStuff\GIT PROJECTS\google-books-api\.gitignore133720033758972784 0
+55C:\codingStuff\GIT PROJECTS\google-books-api\.gitignore133720070533434416 0
 108C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\caniuse-lite\data\features\css-media-resolution.js133719985110519049 0
 75C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\lmdb\src\misc.cpp133719985071187797 0
 96C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\css-tree\lib\definition-syntax\walk.js133719985114093310 0
@@ -83,7 +83,7 @@
 92C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\type-fest\source\package-json.d.ts133719985022366040 0
 101C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\@parcel\workers\test\integration\workerfarm133719985030007636 1
 107C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\caniuse-lite\data\features\css-relative-colors.js133719985112302148 0
-49C:\codingStuff\GIT PROJECTS\google-books-api\dist133720070124894448 1
+49C:\codingStuff\GIT PROJECTS\google-books-api\dist133720083042135845 1
 122C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\csso\node_modules\css-tree\cjs\syntax\config\parser-selector.cjs133719985069309006 0
 98C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\csso\node_modules\css-tree\lib\generator133719985112811457 1
 66C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\msgpackr133719985060259933 1
@@ -112,7 +112,7 @@
 80C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\react-refresh\babel.js133719984911278444 0
 101C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\@parcel\core\test\fixtures\parcel\yarn.lock133719985111421171 0
 110C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\dom-serializer\node_modules\entities\lib\encode.d.ts133719985005726539 0
-54C:\codingStuff\GIT PROJECTS\google-books-api\style.css133720070152304993 0
+54C:\codingStuff\GIT PROJECTS\google-books-api\style.css133720083029085859 0
 90C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\@swc\helpers\esm\_ts_decorate.js133719985114063274 0
 101C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\caniuse-lite\data\features\html5semantic.js133719985165243741 0
 104C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\.bin\node-gyp-build-optional-packages-test.cmd133719985179564927 0
@@ -299,7 +299,7 @@
 82C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\dom-serializer\README.md133719984993463565 0
 109C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\@parcel\rust\parcel-node-bindings.darwin-arm64.node133719985111055299 0
 81C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\react-refresh\README.md133719984991063223 0
-67C:\codingStuff\GIT PROJECTS\google-books-api\dist\index.5366c8f2.js133720069102369748 0
+67C:\codingStuff\GIT PROJECTS\google-books-api\dist\index.5366c8f2.js133720083036923599 0
 114C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\@parcel\utils\test\input\sourcemap\referenced-min.js.map133719985097866910 0
 79C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\@parcel\packager-wasm133719984950153452 1
 100C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\@parcel\packager-js\src\CJSOutputFormat.js133719984921965548 0
@@ -3110,7 +3110,7 @@
 104C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\csso\cjs\restructure\2-initialMergeRuleset.cjs133719984921548350 0
 78C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\csso\lib\restructure133719985070378561 1
 109C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\caniuse-lite\data\features\background-attachment.js133719985044587490 0
-71C:\codingStuff\GIT PROJECTS\google-books-api\dist\index.ebb10a43.js.map133720069102719704 0
+71C:\codingStuff\GIT PROJECTS\google-books-api\dist\index.ebb10a43.js.map133720083042075840 0
 75C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\csso\lib\usage.js133719985070080874 0
 75C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\csso\lib\utils.js133719985070834552 0
 77C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\csso\lib\version.js133719985071214563 0
@@ -4787,7 +4787,7 @@
 109C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\@parcel\workers\test\integration\workerfarm\echo.js133719985006260692 0
 115C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\@parcel\workers\test\integration\workerfarm\master-sum.js133719985022756850 0
 129C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\@parcel\workers\test\integration\workerfarm\resolve-shared-reference.js133719985028608035 0
-67C:\codingStuff\GIT PROJECTS\google-books-api\dist\index.bfa9aee9.js133720069102369748 0
+67C:\codingStuff\GIT PROJECTS\google-books-api\dist\index.bfa9aee9.js133720083036923599 0
 88C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\@parcel\workers\src\backend.js133719984921768310 0
 100C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\@parcel\workers\src\core-worker.browser.js133719984993530893 0
 87C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\@parcel\workers\src\Handle.js133719985010401574 0
@@ -5547,7 +5547,7 @@
 138C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\SelectorList.js133719985098228605 0
 136C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\StyleSheet.js133719985098728590 0
 138C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\TypeSelector.js133719985099868576 0
-75C:\codingStuff\GIT PROJECTS\google-books-api\dist\loading-icon.7965bdf3.png133720069102179734 0
+75C:\codingStuff\GIT PROJECTS\google-books-api\dist\loading-icon.7965bdf3.png133720083033312438 0
 138C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\UnicodeRange.js133719985100038573 0
 131C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\Value.js133719985100188569 0
 136C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\WhiteSpace.js133719985100858632 0
@@ -5903,9 +5903,9 @@
 73C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\.bin\semver.ps1133719985179594887 0
 71C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\.bin\svgo.cmd133719985179584918 0
 71C:\codingStuff\GIT PROJECTS\google-books-api\node_modules\.bin\svgo.ps1133719985179584918 0
-71C:\codingStuff\GIT PROJECTS\google-books-api\dist\index.5366c8f2.js.map133720069102419716 0
-71C:\codingStuff\GIT PROJECTS\google-books-api\dist\index.bfa9aee9.js.map133720069102419716 0
-67C:\codingStuff\GIT PROJECTS\google-books-api\dist\index.ebb10a43.js133720069102689709 0
-60C:\codingStuff\GIT PROJECTS\google-books-api\dist\index.html133720069103059707 0
-68C:\codingStuff\GIT PROJECTS\google-books-api\dist\index.3a01df49.css133720070124864484 0
-72C:\codingStuff\GIT PROJECTS\google-books-api\dist\index.3a01df49.css.map133720070124884452 0
+68C:\codingStuff\GIT PROJECTS\google-books-api\dist\index.3a01df49.css133720083033932549 0
+72C:\codingStuff\GIT PROJECTS\google-books-api\dist\index.3a01df49.css.map133720083033962607 0
+71C:\codingStuff\GIT PROJECTS\google-books-api\dist\index.5366c8f2.js.map133720083036953577 0
+71C:\codingStuff\GIT PROJECTS\google-books-api\dist\index.bfa9aee9.js.map133720083036953577 0
+67C:\codingStuff\GIT PROJECTS\google-books-api\dist\index.ebb10a43.js133720083042045969 0
+60C:\codingStuff\GIT PROJECTS\google-books-api\dist\index.html133720083042125843 0
