@@ -1,6 +1,4 @@
-if (module.hot) {
-  module.hot.accept();
-}
+import { MAX_TEXT_LINE } from "../config.js";
 
 class View {
   bookContainer = document.querySelector(".books-container");
@@ -36,10 +34,18 @@ class View {
             <img src="${bookInfo.imageLinks?.thumbnail}" alt="${
         bookInfo.title
       }" />
-            <div class="title">${bookInfo.title}</div>
+            <div class="title">${
+              bookInfo.title.length > MAX_TEXT_LINE
+                ? bookInfo.title.slice(0, MAX_TEXT_LINE)+"<span id='more'> ...more</span>"
+                : bookInfo.title
+            }</div>
               <div class="author">Author:
                 <span class="author-name">${
-                  bookInfo.authors ?? "No author"
+                  bookInfo.authors && bookInfo.authors.length > 0
+                    ? bookInfo.authors.length > 1
+                      ? bookInfo.authors[0] + ", et al."
+                      : bookInfo.authors
+                    : "no authors"
                 }</span>
               </div>
           </div>

@@ -4,9 +4,10 @@ import * as model from "./model.js";
 //Displaying the books
 const spawnBooks = async function () {
   try {
-    view._loadingSpinner();
     //Gets data from the view
     const bookName = view.inputBook.value;
+    if (!bookName) return;
+    view._loadingSpinner();
 
     //Gets data from the model
     const books = await model.getBooks(bookName);
@@ -30,7 +31,4 @@ const init = function () {
   view.hashChange(spawnModal);
 };
 
-if (module.hot) {
-  module.hot;
-}
 init();

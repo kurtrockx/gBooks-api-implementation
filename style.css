@@ -9,6 +9,7 @@
   --beige: rgb(216, 210, 194);
   --brown: rgb(177, 116, 87);
   --black: rgb(74, 73, 71);
+  --purple: rgb(126, 39, 241);
   --font-small: clamp(0.6rem, 1.5vw, 0.8rem);
   --font-medium: clamp(0.75rem, 3vw, 0.9rem);
   --font-big: clamp(1.2rem, 4vw, 2rem);
@@ -26,10 +27,12 @@ a {
   position: absolute;
   inset: 0;
   margin: auto;
-  padding: 20px;
+  padding: 10px;
   width: 70%;
-  height: 90%;
-  background: red;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 .search-container {
   max-width: 700px;
@@ -75,8 +78,7 @@ button:hover {
   outline: none;
   position: relative;
   width: 100%;
-  min-height: 90%;
-  margin: 20px auto;
+  height: 100%;
   padding: 20px;
   border-radius: 10px;
   display: grid;
@@ -86,6 +88,7 @@ button:hover {
   background: var(--beige);
 }
 .book {
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -108,6 +111,9 @@ button:hover {
   font-size: var(--font-medium);
   line-height: 1.2;
   font-weight: bold;
+}
+#more {
+  color: var(--purple);
 }
 .author {
   font-size: 0.75rem;
