@@ -586,7 +586,9 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 },{}],"4kb28":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-if (module.hot) module.hot.accept();
+var _configJs = require("../config.js");
+var _loadingIconPng = require("../../img/loading-icon.png");
+var _loadingIconPngDefault = parcelHelpers.interopDefault(_loadingIconPng);
 class View {
     bookContainer = document.querySelector(".books-container");
     inputBook = document.querySelector("#search-book");
@@ -603,7 +605,7 @@ class View {
     _loadingSpinner() {
         this._clear();
         const html = `
-      <img src="../img/loading-icon.png" class="loading" />
+      <img src="${(0, _loadingIconPngDefault.default)}" class="loading" />
     `;
         this.bookContainer.insertAdjacentHTML("afterbegin", html);
     }
@@ -616,9 +618,9 @@ class View {
         <a href="#${book.id}">
           <div class="book hide">
             <img src="${bookInfo.imageLinks?.thumbnail}" alt="${bookInfo.title}" />
-            <div class="title">${bookInfo.title}</div>
+            <div class="title">${bookInfo.title.length > (0, _configJs.MAX_TEXT_LINE) ? bookInfo.title.slice(0, (0, _configJs.MAX_TEXT_LINE)) + "<span id='more'> ...more</span>" : bookInfo.title}</div>
               <div class="author">Author:
-                <span class="author-name">${bookInfo.authors && bookInfo.authors.length > 0 ? bookInfo.authors.length > 1 ? `${bookInfo.authors[0]}, et al.` : bookInfo.authors[0] : "no author"}</span>
+                <span class="author-name">${bookInfo.authors && bookInfo.authors.length > 0 ? bookInfo.authors.length > 1 ? bookInfo.authors[0] + ", et al." : bookInfo.authors : "no authors"}</span>
               </div>
           </div>
         </a>
@@ -683,6 +685,44 @@ class View {
 }
 exports.default = new View();
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["8HHum","4kb28"], "4kb28", "parcelRequire53b2")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","../config.js":"k5Hzs","../../img/loading-icon.png":"7RO7k"}],"7RO7k":[function(require,module,exports) {
+module.exports = require("fa93f7918b026a55").getBundleURL("3XB8A") + "loading-icon.7965bdf3.png" + "?" + Date.now();
+
+},{"fa93f7918b026a55":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return "/";
+}
+function getBaseURL(url) {
+    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
+}
+// TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error("Origin not found");
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}]},["8HHum","4kb28"], "4kb28", "parcelRequire53b2")
 
 //# sourceMappingURL=index.ebb10a43.js.map

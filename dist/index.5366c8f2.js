@@ -591,9 +591,10 @@ var _modelJs = require("./model.js");
 //Displaying the books
 const spawnBooks = async function() {
     try {
-        (0, _viewJsDefault.default)._loadingSpinner();
         //Gets data from the view
         const bookName = (0, _viewJsDefault.default).inputBook.value;
+        if (!bookName) return;
+        (0, _viewJsDefault.default)._loadingSpinner();
         //Gets data from the model
         const books = await _modelJs.getBooks(bookName);
         //Displays books from the view
@@ -612,7 +613,6 @@ const init = function() {
     (0, _viewJsDefault.default).searchBook(spawnBooks);
     (0, _viewJsDefault.default).hashChange(spawnModal);
 };
-if (module.hot) module.hot;
 init();
 
 },{"./view.js":"4kb28","./model.js":"gSpT9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["cPSOK","aS8Tu"], "aS8Tu", "parcelRequire53b2")

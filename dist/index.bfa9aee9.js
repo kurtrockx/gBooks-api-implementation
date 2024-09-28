@@ -616,9 +616,11 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "API_URL", ()=>API_URL);
 parcelHelpers.export(exports, "API_KEY", ()=>API_KEY);
 parcelHelpers.export(exports, "MAX_RESULTS", ()=>MAX_RESULTS);
+parcelHelpers.export(exports, "MAX_TEXT_LINE", ()=>MAX_TEXT_LINE);
 const API_URL = "https://www.googleapis.com/books/v1/volumes/";
 const API_KEY = "AIzaSyD2ZdZSbcdO-o7eH7qc1L_dQce7Xrw4P64";
 const MAX_RESULTS = 10;
+const MAX_TEXT_LINE = 45.5;
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {

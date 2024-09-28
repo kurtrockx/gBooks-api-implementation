@@ -10,6 +10,7 @@
   --beige: #d8d2c2;
   --brown: #b17457;
   --black: #4a4947;
+  --purple: #7e27f1;
   --font-small: clamp(.6rem, 1.5vw, .8rem);
   --font-medium: clamp(.75rem, 3vw, .9rem);
   --font-big: clamp(1.2rem, 4vw, 2rem);
@@ -27,12 +28,12 @@ a {
 }
 
 .app-container {
-  background-color: #f003;
   flex-direction: column;
-  max-width: 70%;
+  gap: 10px;
+  width: 70%;
   height: 90vh;
   margin: auto;
-  padding: 20px;
+  padding: 10px;
   display: flex;
   position: absolute;
   inset: 0;
@@ -91,7 +92,7 @@ button:hover {
   justify-content: center;
   gap: 10px;
   width: 100%;
-  margin: 20px auto;
+  height: 100%;
   padding: 20px;
   display: grid;
   position: relative;
@@ -104,6 +105,7 @@ button:hover {
   border-radius: 10px;
   flex-direction: column;
   justify-content: space-between;
+  height: 100%;
   padding: 10px;
   transition: all .5s;
   display: flex;
@@ -124,6 +126,10 @@ button:hover {
   margin: 5px 0;
   font-weight: bold;
   line-height: 1.2;
+}
+
+#more {
+  color: var(--purple);
 }
 
 .author {

@@ -1,4 +1,5 @@
 import { MAX_TEXT_LINE } from "../config.js";
+import icon from "../../img/loading-icon.png";
 
 class View {
   bookContainer = document.querySelector(".books-container");
@@ -18,7 +19,7 @@ class View {
   _loadingSpinner() {
     this._clear();
     const html = `
-      <img src="src/img/loading-icon.png" class="loading" />
+      <img src="${icon}" class="loading" />
     `;
     this.bookContainer.insertAdjacentHTML("afterbegin", html);
   }
@@ -36,7 +37,8 @@ class View {
       }" />
             <div class="title">${
               bookInfo.title.length > MAX_TEXT_LINE
-                ? bookInfo.title.slice(0, MAX_TEXT_LINE)+"<span id='more'> ...more</span>"
+                ? bookInfo.title.slice(0, MAX_TEXT_LINE) +
+                  "<span id='more'> ...more</span>"
                 : bookInfo.title
             }</div>
               <div class="author">Author:
