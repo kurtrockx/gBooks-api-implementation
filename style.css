@@ -9,9 +9,9 @@
   --beige: rgb(216, 210, 194);
   --brown: rgb(177, 116, 87);
   --black: rgb(74, 73, 71);
-  --font-small: clamp(0.6rem, 1vw, 0.8rem);
-  --font-medium: clamp(0.75rem, 2vw, 1rem);
-  --font-big: clamp(1.2rem, 3vw, 2rem);
+  --font-small: clamp(0.6rem, 1.5vw, 0.8rem);
+  --font-medium: clamp(0.75rem, 3vw, 0.9rem);
+  --font-big: clamp(1.2rem, 4vw, 2rem);
 }
 html {
   width: 100%;
@@ -28,7 +28,8 @@ a {
   margin: auto;
   padding: 20px;
   width: 70%;
-  height: 90vh;
+  height: 90%;
+  background: red;
 }
 .search-container {
   max-width: 700px;
@@ -71,20 +72,20 @@ button:hover {
 }
 .books-container {
   overflow: auto;
+  outline: none;
+  position: relative;
   width: 100%;
-  height: 90%;
+  min-height: 90%;
   margin: 20px auto;
   padding: 20px;
   border-radius: 10px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   justify-content: center;
   gap: 10px;
   background: var(--beige);
-  outline: none;
 }
 .book {
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -104,7 +105,7 @@ button:hover {
 }
 .title {
   margin: 5px 0;
-  font-size: 1rem;
+  font-size: var(--font-medium);
   line-height: 1.2;
   font-weight: bold;
 }
@@ -120,6 +121,7 @@ button:hover {
   font-size: 2rem;
 }
 .loading {
+  width: 20%;
   position: absolute;
   inset: 0;
   margin: auto;
@@ -190,7 +192,7 @@ button:hover {
   color: var(--white);
   transition: all 0.25s ease;
 }
-.exit {
+.exit-modal {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -198,7 +200,7 @@ button:hover {
   font-size: var(--font-big);
 }
 
-@media (max-width: 724px) {
+@media (max-width: 799px) {
   .app-container {
     width: 90%;
   }
